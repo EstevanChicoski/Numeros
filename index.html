@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body id="corpo">
+    <br><br><br><br><br>
+    <div>
+        <p>
+            Ano de nascimento
+            <input type="number" name="txtano" id="txtano" min="0" value="1960">
+        </p>
+        <p>
+            Nome completo
+            <input type="text" name="txt" id="name" value="estevan">
+        </p>
+        <p>
+                Sexo
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </p>
+
+    </div>
+    <br>
+    <div id="res">
+        preencha os dados acima
+    </div>
+    <br>
+    <p>
+        Numeros
+        <input type="text" name="number" id="number">
+    </p>
+    <input type="button" value="run" onclick="executar()">
+
+
+    <script src="./assets/js/testes.js"></script>
+
+</body>
+
+</html>
